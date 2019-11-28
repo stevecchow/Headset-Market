@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../style.dart';
+import '../constant/style.dart';
 
 class ProductCard extends StatelessWidget {
   final String imgUrl;
