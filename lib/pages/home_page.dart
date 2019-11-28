@@ -168,7 +168,7 @@ class _HomeState extends State<Home> {
                   Positioned(
                     right: 15,
                     top: -5,
-                    child: Image.asset("assets/speaker.png",
+                    child: Image.asset("assets/images/speaker.png",
                         fit: BoxFit.cover, width: 150, height: 160),
                   )
                 ],

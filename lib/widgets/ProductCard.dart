@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../pages/product_ detail_page.dart';
 import '../constant/style.dart';
 
 class ProductCard extends StatelessWidget {
@@ -6,6 +7,14 @@ class ProductCard extends StatelessWidget {
   final String name;
   final int color;
   ProductCard({this.imgUrl, this.name, this.color});
+
+  _onClick(context) {
+    print('Click >>> $context');
+    Navigator.push(context, MaterialPageRoute(builder: (context) {
+      return ProductDetailPage();
+    }));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -53,7 +62,12 @@ class ProductCard extends StatelessWidget {
                   )
                 ],
               ),
-            )
+            ),
+            GestureDetector(
+              onTap: () {
+                _onClick(context);
+              },
+            ),
           ],
         ),
       ),

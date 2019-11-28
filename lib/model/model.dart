@@ -6,7 +6,7 @@ class HeadPhone {
 }
 
 var products = [
-  HeadPhone(image: "assets/img_01.png", title: "Pampas", color: 6),
-  HeadPhone(image: "assets/img_02.png", title: "Plattan TLE", color: 12),
-  HeadPhone(image: "assets/img_03.png", title: "Plattan 2", color: 1),
+  HeadPhone(image: "assets/images/img_01.png", title: "Pampas", color: 6),
+  HeadPhone(image: "assets/images/img_02.png", title: "Plattan TLE", color: 12),
+  HeadPhone(image: "assets/images/img_03.png", title: "Plattan 2", color: 1),
 ];
